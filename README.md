@@ -1,10 +1,10 @@
-TaskFlow - Task Management System
+##TaskFlow - Task Management System
 
 
 
 A comprehensive task management system built with the MERN stack featuring role-based access control, team collaboration, and intuitive task tracking.
 
-🌟 Features
+🌟 ##Features
 
 🔐 Authentication & Security
 
@@ -127,7 +127,7 @@ taskflow/
 ```
 🚀 Quick Start
 
-Prerequisites
+##Prerequisites
 
 Node.js (v18 or higher)
 MongoDB (local installation or MongoDB Atlas)

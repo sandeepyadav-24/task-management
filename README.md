@@ -1,6 +1,6 @@
 TaskFlow - Task Management System
 
-https://img.shields.io/badge/Version-1.0.0-blue https://img.shields.io/badge/React-18.2.0-61dafb https://img.shields.io/badge/Node.js-18+-339933 https://img.shields.io/badge/MongoDB-7.0-47A248
+
 
 A comprehensive task management system built with the MERN stack featuring role-based access control, team collaboration, and intuitive task tracking.
 
@@ -75,6 +75,7 @@ Tailwind CSS - Utility-first CSS framework
 📁 Project Structure
 
 text
+```bash
 taskflow/
 ├── 📁 backend/
 │   ├── 📁 config/
@@ -123,6 +124,7 @@ taskflow/
 │   └── 📄 tailwind.config.js        # Tailwind configuration
 │
 └── 📄 README.md                     # Project documentation
+```
 🚀 Quick Start
 
 Prerequisites

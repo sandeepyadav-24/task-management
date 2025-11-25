@@ -1,56 +1,92 @@
-##TaskFlow - Task Management System
-
-
+# TaskFlow - Task Management System
 
 A comprehensive task management system built with the MERN stack featuring role-based access control, team collaboration, and intuitive task tracking.
 
-🌟 ##Features
+---
 
-🔐 Authentication & Security
+## 🌟 Features
 
-JWT-based Authentication - Secure token-based login system
-Role-Based Access Control - Three distinct user roles with granular permissions
-Password Hashing - bcryptjs for secure password storage
-Protected Routes - Automatic route protection based on user roles
-👥 User Management
+### 🔐 Authentication & Security
+- **JWT-based Authentication** – Secure token-based login system  
+- **Role-Based Access Control** – Three distinct user roles with granular permissions  
+- **Password Hashing** – Secure password storage using `bcryptjs`  
+- **Protected Routes** – Automatic route protection based on user roles  
 
-Admin Panel - Complete user management capabilities
-Team Structure - Managers can oversee team members
-Profile Management - Personal information and password updates
-Role Assignment - Flexible user role management
-📋 Task Management
+---
 
-Create & Assign Tasks - Managers and admins can create and assign tasks
-Status Tracking - Pending, In Progress, Completed statuses
-Priority Levels - Low, Medium, High priority classification
-Due Date Management - Set and track task deadlines
-Advanced Filtering - Filter by status, priority, assignee, and dates
-Search Functionality - Quick search across task titles and descriptions
-🗓️ Calendar & Scheduling
+### 👥 User Management
+- **Admin Panel** – Complete user management capabilities  
+- **Team Structure** – Managers can oversee team members  
+- **Profile Management** – Personal information & password updates  
+- **Role Assignment** – Flexible user role management  
 
-Calendar View - Visual timeline of all tasks
-Date Range Filtering - View tasks within specific date ranges
-Task Scheduling - Plan and organize tasks efficiently
-🎯 Role-Based Features
+---
 
-👑 Admin
+### 📋 Task Management
+- **Create & Assign Tasks** – Managers and admins can create and assign tasks  
+- **Status Tracking** – Pending, In Progress, Completed  
+- **Priority Levels** – Low, Medium, High  
+- **Due Date Management** – Set and track task deadlines  
+- **Advanced Filtering** – Filter by status, priority, assignee, and dates  
+- **Search Functionality** – Search task titles & descriptions  
 
-Full system access and user management
-Create, edit, and delete any task or user
-View system-wide statistics and analytics
-Assign tasks to any team member
-👨‍💼 Manager
+---
 
-Manage team tasks and assignments
-Create tasks for team members
-View team calendar and progress
-Update team task status and details
-👤 User
+### 🗓️ Calendar & Scheduling
+- **Calendar View** – Visual timeline of all tasks  
+- **Date Range Filtering** – View tasks within specific ranges  
+- **Task Scheduling** – Plan and organize tasks efficiently  
 
-View assigned tasks only
-Update personal task status
-Access personal calendar view
-Manage personal profile
+---
+
+## 🎯 Role-Based Features
+
+### 👑 Admin
+- Full system access  
+- Create, edit, delete any task or user  
+- View system-wide analytics  
+- Assign tasks to any team member  
+
+### 👨‍💼 Manager
+- Manage team tasks and assignments  
+- Create tasks for team members  
+- View team calendar & progress  
+- Update team task status  
+
+### 👤 User
+- View assigned tasks only  
+- Update personal task status  
+- Access personal calendar  
+- Manage personal profile  
+
+---
+
+# 🛠️ Tech Stack
+
+## Backend
+- **Node.js**  
+- **Express.js**  
+- **MongoDB**  
+- **Mongoose**  
+- **JWT Authentication**  
+- **bcryptjs**  
+- **Express Validator**  
+- **CORS**  
+- **Dotenv**  
+
+## Frontend
+- **React 18**  
+- **React Router DOM**  
+- **Axios**  
+- **React Hot Toast**  
+- **React Icons**  
+- **Tailwind CSS**  
+
+---
+
+# 📁 Project Structure
+
+
 🛠️ Tech Stack
 
 Backend

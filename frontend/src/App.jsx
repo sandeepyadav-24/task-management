@@ -12,6 +12,7 @@ import Calendar from "./pages/Calendar";
 import Users from "./pages/Users";
 import UserForm from "./pages/UserForm";
 import Profile from "./pages/Profile";
+import LandingPage from "./components/LandingPage";
 
 const PrivateRoute = ({ children, roles }) => {
   const { user, loading } = useAuth();
@@ -35,6 +36,15 @@ function App() {
     <>
       <Toaster position="top-right" toastOptions={{ duration: 3000 }} />
       <Routes>
+        {/* 🏠 Landing Page is PUBLIC and FIRST PAGE */}
+        <Route
+          path="/"
+          element={
+            <PublicRoute>
+              <LandingPage />
+            </PublicRoute>
+          }
+        />
         <Route
           path="/login"
           element={
@@ -125,7 +135,7 @@ function App() {
           }
         />
 
-        <Route path="/" element={<Navigate to="/dashboard" />} />
+        {/**<Route path="/" element={<Navigate to="/dashboard" />} /> */}
         <Route path="*" element={<Navigate to="/dashboard" />} />
       </Routes>
     </>

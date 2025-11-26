@@ -3,8 +3,8 @@ const User = require("../models/User");
 
 // Protect routes - verify JWT token
 const protect = async (req, res, next) => {
-  console.log("Protect middleware called");
-  console.log("Headers:", req.headers);
+  //console.log("Protect middleware called");
+  //console.log("Headers:", req.headers);
   let token;
 
   // Check if token exists in Authorization header
@@ -30,7 +30,7 @@ const protect = async (req, res, next) => {
     // Get user from token
     req.user = await User.findById(decoded.id);
 
-    console.log("Role -> -> ->" + req.user);
+    //console.log("Role -> -> ->" + req.user);
 
     if (!req.user) {
       return res.status(401).json({

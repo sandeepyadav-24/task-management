@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
 
   const handleLogout = () => {
     logout();
-    navigate("/login");
+    navigate("/");
   };
 
   const navItems = [
@@ -55,7 +55,7 @@ const Layout = ({ children }) => {
           {/* Logo */}
           <div className="flex items-center gap-2 text-xl font-bold text-indigo-600 mb-8">
             <FiClipboard size={28} />
-            <span>TaskFlow</span>
+            <span>TaskBite</span>
           </div>
 
           {/* Navigation */}

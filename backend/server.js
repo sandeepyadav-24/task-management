@@ -19,12 +19,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Debug middleware to see incoming requests
-app.use((req, res, next) => {
+{
+  /**app.use((req, res, next) => {
   console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
   console.log("Query params:", req.query);
   console.log("Body:", req.body);
   next();
-});
+}); */
+}
 
 // Import routes
 const authRoutes = require("./routes/authRoutes");

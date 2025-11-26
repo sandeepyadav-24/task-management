@@ -19,7 +19,7 @@ const getTasks = async (req, res, next) => {
 
     let query = {};
     const userRole = req.user.role;
-    console.log("Role----------->" + userRole);
+    //console.log("Role----------->" + userRole);
 
     // Role-based filtering
     if (userRole === "user") {

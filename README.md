@@ -126,3 +126,25 @@ Content-Type: application/json
   DELETE /api/tasks/:id
   Authorization: Bearer <token>
 ```
+
+
+
+## Different Login
+
+### Admin Login 
+```bash
+  Email - admin123@gmail.com
+  Password - @dmin@123
+```
+
+### Manager Login 
+```bash
+  Email - manager123@gmail.com
+  Password - m@nager@123
+```
+
+### User Login 
+```bash
+  Email - user123@gmail.com
+  Password - user@123
+```

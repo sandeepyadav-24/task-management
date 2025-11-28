@@ -148,3 +148,20 @@ Content-Type: application/json
   Email - user123@gmail.com
   Password - user@123
 ```
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file in backend folder
+
+`NODE_ENV`
+`PORT`
+`MONGODB_URI`
+`JWT_SECRET`
+`JWT_EXPIRE`
+
+
+
+
+
+
+
